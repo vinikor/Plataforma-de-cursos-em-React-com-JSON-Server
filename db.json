@@ -1,0 +1,113 @@
+{
+  "usuarios": [
+    {
+      "id": "UkO6runj6h4",
+      "NomeCompleto": "vinicios",
+      "Email": "barbosavini850@gmail.com",
+      "SenhaHash": "123123123",
+      "DataCadastro": "2026-06-05T05:18:11.839Z",
+      "isInstrutor": false
+    },
+    {
+      "id": "fy1cKVxA3XE",
+      "NomeCompleto": "carlos",
+      "Email": "carlos@gmail.com",
+      "SenhaHash": "123123",
+      "DataCadastro": "2026-06-05T20:57:37.338Z",
+      "isInstrutor": true
+    }
+  ],
+  "categorias": [
+    {
+      "Nome": "WEB",
+      "Descricao": "",
+      "id": "D_Z7ytyrEEc"
+    }
+  ],
+  "cursos": [
+    {
+      "Titulo": "javascript",
+      "Descricao": "",
+      "idInstrutor": "fy1cKVxA3XE",
+      "idCategoria": "D_Z7ytyrEEc",
+      "Nivel": "Iniciante",
+      "DataPublicacao": "2026-06-05",
+      "TotalAulas": 123,
+      "TotalHoras": 123,
+      "id": "zXEP05h25Bc"
+    },
+    {
+      "Titulo": "java",
+      "Descricao": "",
+      "idInstrutor": "fy1cKVxA3XE",
+      "idCategoria": "D_Z7ytyrEEc",
+      "Nivel": "Avançado",
+      "DataPublicacao": "2026-06-07",
+      "TotalAulas": 1,
+      "TotalHoras": 12,
+      "id": "yE8NtULY1_w"
+    }
+  ],
+  "modulos": [
+    {
+      "Titulo": "iniciante",
+      "Ordem": 1,
+      "idCurso": "zXEP05h25Bc",
+      "id": "4PuVaxLwSP0"
+    }
+  ],
+  "aulas": [
+    {
+      "titulo": "adsad",
+      "TipoConteudo": "Vídeo",
+      "UrlConteudo": "asdad",
+      "Duracao": 123,
+      "Ordem": 1,
+      "idModulo": "4PuVaxLwSP0",
+      "id": "mf6DK9DWh2M"
+    }
+  ],
+  "matriculas": [
+    {
+      "idUsuario": "fy1cKVxA3XE",
+      "idCurso": "zXEP05h25Bc",
+      "DataMatricula": "2026-06-06T17:33:57.391Z",
+      "Dataconclusao": null,
+      "id": "rOXwMUc4e3I"
+    },
+    {
+      "idUsuario": "UkO6runj6h4",
+      "idCurso": "zXEP05h25Bc",
+      "DataMatricula": "2026-06-06T17:38:20.589Z",
+      "Dataconclusao": null,
+      "id": "NF9FI3ov28w"
+    }
+  ],
+  "trilhas": [
+    {
+      "Titulo": "fsdfsd",
+      "Descricao": "",
+      "idCategoria": "",
+      "id": "WZ_JCMQpV3o"
+    }
+  ],
+  "trilhasCursos": [
+    {
+      "idTrilha": "WZ_JCMQpV3o",
+      "idCurso": "zXEP05h25Bc",
+      "Ordem": 1,
+      "id": "SFBEg88m-z4"
+    },
+    {
+      "idTrilha": "WZ_JCMQpV3o",
+      "idCurso": "yE8NtULY1_w",
+      "Ordem": 2,
+      "id": "8eTL1ESvAQo"
+    }
+  ],
+  "certificados": [],
+  "planos": [],
+  "assinaturas": [],
+  "pagamentos": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

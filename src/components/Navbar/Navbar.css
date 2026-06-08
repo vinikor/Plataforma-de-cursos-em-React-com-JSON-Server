@@ -1,0 +1,33 @@
+.navbar-button {
+  border: 0;
+  background-color: transparent;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.navbar-button:hover .text-danger {
+  color: #c82333 !important;
+  font-weight: bold;
+}
+
+#navbarLeft {
+  width: 100px;
+}
+
+.btn-link {
+  border: 1px solid transparent;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-link:hover {
+  border: 1px solid #1b1f25;
+  border-radius: 0.5rem;
+  
+}
