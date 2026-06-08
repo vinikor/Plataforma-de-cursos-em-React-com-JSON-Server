@@ -1,4 +1,7 @@
-# React + TypeScript + Vite
+# Plataforma de cursos em React com JSON Server
+
+npm run dev
+npm run server
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
